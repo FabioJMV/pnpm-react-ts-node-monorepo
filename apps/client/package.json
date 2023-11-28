@@ -1,5 +1,9 @@
 {
   "name": "@ts-mono/client",
   "version": "1.0.0",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@ts-mono/eslint-config-custom": "workspace:*",
+    "@ts-mono/ts-config": "workspace:*"
+  }
 }
