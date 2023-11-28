@@ -1,5 +1,6 @@
 {
   "exclude": ["node_modules", "dist"],
   "extends": "@ts-mono/ts-config/tsconfig.react.json",
-  "include": ["src"]
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
