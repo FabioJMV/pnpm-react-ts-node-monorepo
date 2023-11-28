@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ES2022",
+    "allowJs": true,
+    "useDefineForClassFields": true,
+    "lib": ["ES2022"],
+
+    /* Bundler Config: */
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true
+  }
+}
