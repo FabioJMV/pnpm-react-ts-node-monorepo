@@ -1,0 +1,13 @@
+{
+  "name": "ts-monorepo-boilerplate",
+  "version": "1.0.0",
+  "description": "TypeScript monorepo boilerplate using pnpm workspaces and Turborepo.",
+  "keywords": [
+    "typescript",
+    "monorepo",
+    "pnpm",
+    "turborepo"
+  ],
+  "author": "FabioJMV",
+  "license": "ISC"
+}
