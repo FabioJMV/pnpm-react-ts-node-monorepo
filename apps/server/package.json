@@ -2,8 +2,17 @@
   "name": "@ts-mono/server",
   "version": "1.0.0",
   "license": "ISC",
+  "scripts": {
+    "dev": "rm -rf dist && pnpm run build && nodemon dist/index.js",
+    "build": "tsc"
+  },
   "devDependencies": {
     "@ts-mono/eslint-config-custom": "workspace:*",
-    "@ts-mono/ts-config": "workspace:*"
+    "@ts-mono/ts-config": "workspace:*",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "fastify": "^4.24.3"
   }
 }

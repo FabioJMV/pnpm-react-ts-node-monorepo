@@ -1,5 +1,8 @@
 {
   "exclude": ["node_modules", "dist"],
   "extends": "@ts-mono/ts-config/tsconfig.server.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
   "include": ["src"]
 }
