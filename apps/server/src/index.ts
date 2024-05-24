@@ -1,15 +1,15 @@
-import Fastify from "fastify";
-const fastifo = Fastify({
-  logger: true,
-});
+import fastify from "fastify";
 
-fastifo.get("/", async (_request, reply) => {
+const app = fastify({ logger: true });
+
+app.get("/", async (_, reply) => {
   await reply.send({ hello: "world" });
 });
 
-fastifo.listen({ port: 3000 }, (err, _address) => {
+app.listen({ port: 3000 }, (err, address) => {
   if (err !== null) {
-    fastifo.log.error(err);
+    app.log.error(err);
+    process.exit(1);
   }
-  fastifo.log.info("server listening on PORT 2000");
+  app.log.info(`Server listening at ${address}`);
 });
