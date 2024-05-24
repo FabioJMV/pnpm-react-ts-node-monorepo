@@ -10,7 +10,8 @@
     "@ts-mono/eslint-config-custom": "workspace:*",
     "@ts-mono/ts-config": "workspace:*",
     "nodemon": "^3.0.1",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "typescript": "5.4.5"
   },
   "dependencies": {
     "fastify": "^4.24.3"

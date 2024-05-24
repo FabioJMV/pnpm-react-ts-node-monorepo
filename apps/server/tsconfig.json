@@ -1,7 +1,7 @@
 {
-  "exclude": ["node_modules", "dist"],
-  "extends": "@ts-mono/ts-config/tsconfig.server.json",
+  "extends": "@ts-mono/ts-config/bundler.json",
   "compilerOptions": {
+    "rootDir": "src",
     "outDir": "dist"
   },
   "include": ["src"]
