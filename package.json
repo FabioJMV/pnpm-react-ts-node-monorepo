@@ -9,5 +9,8 @@
     "turborepo"
   ],
   "author": "FabioJMV",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "1.13.3"
+  }
 }
