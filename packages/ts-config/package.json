@@ -1,11 +1,11 @@
 {
   "name": "@ts-mono/ts-config",
-  "version": "1.0.0",
+  "private": true,
   "description": "Typescript shared config for the monorepo",
-  "files": [
-    "tsconfig.base.json",
-    "tsconfig.react.json",
-    "tsconfig.server.json"
-  ],
-  "license": "ISC"
+  "devDependencies": {
+    "typescript": "5.4.5"
+  },
+  "peerDependencies": {
+    "typescript": "5.4.5"
+  }
 }

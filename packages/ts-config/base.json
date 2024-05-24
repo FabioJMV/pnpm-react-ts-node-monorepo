@@ -1,22 +1,30 @@
 {
   "compilerOptions": {
-    /* Basic Options */
-    "esModuleInterop": true,
-    "skipLibCheck": true,
+    "target": "ESNext",
     "moduleDetection": "force",
+
+    "resolveJsonModule": true,
+
+    "allowJs": true,
+    "checkJs": true,
+
     "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
 
-    /* Strictness */
     "strict": true,
-    "allowUnusedLabels": false,
     "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "exactOptionalPropertyTypes": true,
     "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": true,
+    "noImplicitOverride": true,
     "noImplicitReturns": true,
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+
+    "skipLibCheck": true
   }
 }
