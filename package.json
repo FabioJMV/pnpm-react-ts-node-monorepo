@@ -9,8 +9,5 @@
     "turborepo"
   ],
   "author": "FabioJMV",
-  "license": "ISC",
-  "devDependencies": {
-    "@ts-mono/eslint-config-custom": "workspace:*"
-  }
+  "license": "ISC"
 }
