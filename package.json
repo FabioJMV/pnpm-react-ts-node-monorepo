@@ -2,15 +2,14 @@
   "name": "ts-monorepo-boilerplate",
   "version": "1.0.0",
   "description": "TypeScript monorepo boilerplate using pnpm workspaces and Turborepo.",
-  "keywords": [
-    "typescript",
-    "monorepo",
-    "pnpm",
-    "turborepo"
-  ],
+  "keywords": ["typescript", "monorepo", "pnpm", "turborepo"],
   "author": "FabioJMV",
+  "scripts": {
+    "lint": "biome check --apply ."
+  },
   "license": "ISC",
   "devDependencies": {
+    "@biomejs/biome": "1.7.3",
     "turbo": "1.13.3"
   }
 }
